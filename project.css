@@ -6,7 +6,7 @@
 }
 
 .project-section {
-    width: 300px;
+    width: 1100px;
     margin: 20px;
     padding: 20px;
     border: 1px solid #ddd;
@@ -48,8 +48,6 @@
     }
 }
 
-
-
 .navbar-brand {
     font-size: 2rem;
     font-weight: 700;
@@ -59,16 +57,26 @@
     margin-left: 20px;
   }
   
-  a.nav-link {
+  .nav-link {
     font-size: 1.0rem;
-    font-weight: 500;
+    font-weight: bold;
     color: #bea060;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-right: 10px;
   }
 
-  button {
+  .header-left-side h1 {
+    color: #bea060;
+    line-height: 1.2em;
+    font-size: 78px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400 !important;
+  }
+
+
+button {
     padding: 20px 10px;
     border: 2px solid #bea060;
     background: transparent;
@@ -79,12 +87,52 @@
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
-  }
-  button:hover {
+}
+
+button:hover {
     background-color: #bea060;
     transition: 0.7s;
-  }
-  .btn {
+}
+
+.btn {
     width: 97%;
     background-color: #bea060;
-  }
+}
+
+.header-left-side h1 {
+    color: #bea060;
+    line-height: 1.2em;
+    font-size: 78px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400 !important;
+}
+
+/* Ensure all footer links are white */
+footer .text-reset {
+    color: #ffffff !important;
+}
+
+footer .text-reset:hover {
+    color: #bea060 !important; /* Optional: Change color on hover */
+}
+
+/* Style for footer titles */
+footer h6 {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Style for footer text */
+footer p {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Make everything in the footer bold */
+footer * {
+    font-weight: bold;
+    color: #ffffff !important; /* Ensure all text is white */
+}
