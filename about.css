@@ -87,6 +87,35 @@
     font-weight: 400 !important;
   }
 
+/* Ensure all footer links are white */
+footer .text-reset {
+    color: #ffffff !important;
+}
+
+footer .text-reset:hover {
+    color: #bea060 !important; /* Optional: Change color on hover */
+}
+
+/* Style for footer titles */
+footer h6 {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* Style for footer text */
+footer p {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Make everything in the footer bold */
+footer * {
+    font-weight: bold;
+    color: #ffffff !important; /* Ensure all text is white */
+}
+
 
 
   
