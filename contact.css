@@ -1,4 +1,8 @@
 /* Custom styles for the contact page */
+body{
+    background-color: black;
+}
+
 .container-contact {
     background-color: #121313;
     padding: 30px;
@@ -28,3 +32,72 @@
     margin-bottom: 10px;
     color: #bea060;
 }
+
+
+
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #bea060;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: #bea060;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 10px;
+  }
+
+  .header-left-side h1 {
+    color: #bea060;
+    line-height: 1.2em;
+    font-size: 78px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400 !important;
+  }
+
+
+button {
+    padding: 20px 10px;
+    border: 2px solid #bea060;
+    background: transparent;
+    width: 47%;
+    color: white;
+    margin-right: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bea060;
+    transition: 0.7s;
+}
+
+.btn {
+    width: 97%;
+    background-color: #bea060;
+}
+
+.header-left-side h1 {
+    color: #bea060;
+    line-height: 1.2em;
+    font-size: 78px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400 !important;
+}
+
+
+.color{
+    color: white;
+}
+
